@@ -87,5 +87,7 @@ $route['admin/kullanicilar/(:num)/duzenle'] = 'user/edit/$1';
 $route['admin/kullanicilar/(:num)/guncelle'] = 'user/update/$1';
 $route['admin/kullanicilar/(:num)/sil'] = 'user/destroy/$1';
 /*FRONT-FRONT*/
-$route['/(:any)'] = 'front/index';
+$route['about'] = 'front/about';
+$route['scroll'] = 'front/scroll';
+$route['contact'] = 'front/contact';
 $route['default_controller'] = 'front/index';

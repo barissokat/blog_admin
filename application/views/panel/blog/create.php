@@ -12,7 +12,7 @@
 	<?php echo form_open('admin/bloglar/olustur'); ?>
 		<div class="form-group">
 			<label for="category">Blog kategorisi</label>
-			<select required class="form-control" id="category" name="category">
+			<select required class="form-control" name="category">
 				<option value="">Seçiniz</option>
 				<?php foreach ($category as $row) {
 					echo '<option value="'.$row->id.'">'.$row->name.'</option>';
@@ -22,13 +22,13 @@
 		</div>
 		<div class="form-group">
 			<label for="title">Başlık</label>
-			<input required type="text" class="form-control" id="title" name="title" aria-describedby="titleHelp" placeholder="Blog başlığı">
+			<input required type="text" class="form-control" name="title" aria-describedby="titleHelp" placeholder="Blog başlığı">
 			<small id="titleHelp" class="form-text text-danger"><?php echo form_error('title', '<div class="error">', '</div>'); ?></small>
 		</div>
 		<div class="form-group">
 			<label for="content">İçerik</label>
-			<textarea required class="form-control w-100" id="content" name="content" aria-describedby="contentHelp" rows="7"></textarea>
-			<small id="nameHelp" class="form-text text-danger"><?php echo form_error('content', '<div class="error">', '</div>'); ?></small>
+			<textarea  class="form-control" name="content" aria-describedby="contentHelp"></textarea>
+			<small id="contentHelp" class="form-text text-danger"><?php echo form_error('content', '<div class="error">', '</div>'); ?></small>
 		</div>
 		<div class="form-row">
 			<div class="col-md-2">

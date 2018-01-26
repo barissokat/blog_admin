@@ -1,5 +1,5 @@
 <?php
-class My_Form_validation extends CI_Form_Validation
+class MY_Form_validation extends CI_Form_Validation
 {
 	function __construct($config=array())
 	{

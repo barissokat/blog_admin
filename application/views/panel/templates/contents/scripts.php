@@ -4,5 +4,5 @@
 	<script src="/assets/panel/js/bootstrap.min.js"></script>
 	<script src="/assets/panel/js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.16/r-2.2.1/rg-1.0.2/datatables.min.js"></script>
+	<script type='text/javascript' src='/assets/panel/js/tinymce/tinymce.min.js'></script>
 	<script src="/assets/panel/js/js.js"></script>
-	

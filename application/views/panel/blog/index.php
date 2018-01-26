@@ -32,7 +32,7 @@
                 <td><?= $row->admin;  ?></td>
                 <td><?= $row->title;  ?></td>
                 <td><?= $row->category;  ?></td>
-                <td><?= $row->content;  ?></td>
+                <td><?= word_limiter($row->content, 10);  ?></td>
             </tr>
             <?php endforeach ?>
         </tbody>

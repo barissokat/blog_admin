@@ -10,5 +10,17 @@ class Front extends CI_Controller
 	{
 		$this->load->view('/front/pages/homepage');
 	}
+	public function about()
+	{
+		$this->load->view('/front/pages/aboutpage');
+	}
+	public function scroll()
+	{
+		$this->load->view('/front/pages/scrollpage');
+	}
+	public function contact()
+	{
+		$this->load->view('/front/pages/contactpage');
+	}
 }
 ?>
