@@ -1,6 +1,9 @@
-	<link href="/assets/front/css/bootstrap.css" rel="stylesheet" media="screen">
-	<link href="/assets/front/css/jquery-ui.css" rel="stylesheet" media="screen">
-	<link href="/assets/front/css/jquery-ui.theme.css" rel="stylesheet" media="screen">
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.16/r-2.2.1/rg-1.0.2/datatables.min.css"/>
-	<link href="/assets/front/css/normalize.css" rel="stylesheet" media="screen">
-	<link href="/assets/front/css/style.css" rel="stylesheet" media="screen">
+<!--Load Styles-->
+<link rel="shortcut icon" href="/assets/front/img/images/favicon.png" />
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CLibre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css"  href='/assets/front/css/clear.css' />
+<link rel="stylesheet" type="text/css"  href='/assets/front/css/common.css' />
+<link rel="stylesheet" type="text/css"  href='/assets/front/css/font-awesome.min.css' />
+<link rel="stylesheet" type="text/css"  href='/assets/front/css/carouFredSel.css' />
+<link rel="stylesheet" type="text/css"  href='/assets/front/css/sm-clean.css' />
+<link rel="stylesheet" type="text/css"  href='/assets/front/css/style.css' />
