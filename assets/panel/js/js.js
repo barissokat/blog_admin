@@ -43,5 +43,11 @@ jQuery(document).ready(function($){
 	jQuery("#startDate").datepicker();
 	jQuery("#endDate").datepicker();
 	jQuery("#studentDOB").datepicker({changeYear: true});
+
+	// Tinymce
+    tinymce.init({
+        selector: "textarea",
+        language: "tr_TR"
+    });
 	
 });
